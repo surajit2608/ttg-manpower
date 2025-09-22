@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: $scrollbar-width-mozila;
+  -webkit-tap-highlight-color: transparent;
+
+  ::-webkit-scrollbar {
+    width: $scrollbar-width-webkit;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $scrollbar-track-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: $scrollbar-thumb-radius;
+    background-color: $scrollbar-thumb-background;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: $scrollbar-thumb-background-hover;
+  }
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-style: normal;
+  color: $base-text-color;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  background-color: $body-bg-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+::placeholder {
+  opacity: 1;
+  color: $placeholder-color;
+}
+
+p {
+  line-height: $base-line-height;
+}
+
+ol,
+ul {
+  padding-left: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $base-text-color;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  color: $h1-color;
+  font-size: 3.75rem;
+}
+
+h2 {
+  color: $h2-color;
+}
+
+h3 {
+  color: $h3-color;
+}
+
+h4 {
+  color: $h4-color;
+  font-size: 1.15rem;
+}
+
+h5 {
+  color: $h5-color;
+}
+
+h6 {
+  color: $h6-color;
+}
+
+a {
+  cursor: pointer;
+  outline: 0 solid;
+  color: $anchor-color;
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:active,
+  &:visited {
+    outline: 0 solid;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $anchor-hover-color;
+  }
+}
+
+button {
+  cursor: pointer;
+  outline: 0 solid;
+
+  &:focus {
+    outline: 0 solid;
+    box-shadow: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    opacity: 0.8;
+    cursor: default;
+  }
+}
+
+input,
+select {
+  font-size: 100%;
+}
+
+label {
+  font-weight: 500;
+}
+
+/*** iPhone and iOS Form Input Zoom Fixes ***/
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"] {
+    font-size: 0.9rem;
+  }
+}
+
+/* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
+@media screen and (device-aspect-ratio: 40/71) {
+
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"] {
+    font-size: 0.9rem;
+  }
+}
+
+/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+@media screen and (device-aspect-ratio: 375/667) {
+
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"] {
+    font-size: 0.9rem;
+  }
+}
+
+/* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
+@media screen and (device-aspect-ratio: 9/16) {
+
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"] {
+    font-size: 0.9rem;
+  }
+}

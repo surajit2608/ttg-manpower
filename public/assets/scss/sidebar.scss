@@ -1,0 +1,77 @@
+@import 'variables.scss';
+@import 'reset.scss';
+
+#wrapper {
+  padding-left: 15rem;
+}
+
+#sidebar {
+  top: 0;
+  width: 15rem;
+  height: 100%;
+  z-index: 102;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease-in;
+  background-color: $sidebar-bg-color;
+
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+    span {
+      padding: 1rem;
+      display: flex;
+      font-size: 1rem;
+      align-items: center;
+      transition: transform 0.2s ease-in-out;
+
+      &:hover {
+        transform: translate(5px);
+      }
+    }
+
+    &.active {
+      background-color: $sidebar-bg-color-active;
+
+      span:hover {
+        transform: none;
+      }
+    }
+  }
+
+  .logo {
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    img {
+      width: 75%;
+    }
+
+    a {
+      background: none;
+      border-left: none;
+
+      &:hover {
+        background: none;
+        border-left: none;
+      }
+    }
+  }
+}
+
+.sidebar-ovarlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.15);
+}

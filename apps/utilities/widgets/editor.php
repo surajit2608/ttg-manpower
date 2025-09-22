@@ -1,0 +1,1 @@
+@include('widgets.editor.mirror')

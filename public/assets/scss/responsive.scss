@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+
+  $base-padding: 1rem;
+
+  .hide-xs {
+    display: none !important;
+  }
+
+  .show-xs {
+    display: block !important;
+  }
+
+  .p-base {
+    padding: $base-padding;
+  }
+
+  .ph-base {
+    padding-left: $base-padding;
+    padding-right: $base-padding;
+  }
+
+  .pv-base {
+    padding-top: $base-padding;
+    padding-bottom: $base-padding;
+  }
+
+  .pt-base {
+    padding-top: $base-padding;
+  }
+
+  .pr-base {
+    padding-right: $base-padding;
+  }
+
+  .pb-base {
+    padding-bottom: $base-padding;
+  }
+
+  .pl-base {
+    padding-left: $base-padding;
+  }
+
+  #wrapper {
+    padding-left: 0 !important;
+  }
+
+  #sidebar {
+    transform: translateX(-100%) !important;
+
+    &.open {
+      transform: translateX(0) !important;
+    }
+  }
+
+  #header {
+    h1 {
+      font-size: 1.5rem;
+      padding: $base-padding;
+    }
+
+    .header-right {
+      padding: $base-padding;
+    }
+  }
+
+  #scrollable {
+    .content {
+      padding: $base-padding;
+    }
+  }
+
+  .modal {
+    &.center {
+      .modal-content {
+        margin-left: $base-padding;
+        margin-right: $base-padding;
+      }
+    }
+  }
+}

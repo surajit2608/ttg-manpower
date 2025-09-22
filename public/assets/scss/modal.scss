@@ -1,0 +1,111 @@
+.modal {
+  opacity: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  transform: translate(-100%);
+
+  .modal-content {
+    display: flex;
+    max-width: 40rem;
+    background-color: #fff;
+    flex-direction: column;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  &.center {
+    align-items: center;
+    justify-content: center;
+
+    .modal-content {
+      opacity: 0;
+      margin-left: 5rem;
+      border-radius: 0.5rem;
+      transform: scale(0.5);
+      transition: transform 0.3s cubic-bezier(0, 0.8, 0.6, 1);
+    }
+
+    &.open {
+      .modal-content {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .modal-body {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  &.right {
+    justify-content: flex-end;
+
+    .modal-content {
+      height: 100%;
+      width: 30rem;
+      background-color: #fff;
+      transform: translate3d(100%, 0, 0);
+      transition: transform 0.3s cubic-bezier(0, 0.8, 0.6, 1);
+    }
+
+    &.open {
+      .modal-content {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+
+  &.open {
+    opacity: 1;
+    z-index: 102;
+    transform: translate(0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $border-color;
+
+    .close {
+      font-size: 1.25rem;
+    }
+
+    .title {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .modal-body {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .modal-footer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid $border-color;
+
+    .btn {
+      margin-left: 1rem;
+    }
+  }
+}

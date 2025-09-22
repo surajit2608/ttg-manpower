@@ -1,0 +1,21 @@
+{
+  "name": "Admin - Bureau De Connect",
+  "short_name": "Admin - BDC",
+  "description": "Admin app for Bureau De Connect",
+  "icons": [
+    {
+      "sizes": "any",
+      "purpose": "any",
+      "type": "image/png",
+      "src": "/assets/images/logo.png"
+    }
+  ],
+  "lang": "en-US",
+  "id": "/admin/",
+  "Scope": "/admin/",
+  "start_url": "/admin/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "rgba(35,32,32,1)",
+  "background_color": "rgba(255, 255, 255, 1)"
+}

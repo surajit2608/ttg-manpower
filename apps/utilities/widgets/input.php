@@ -1,0 +1,5 @@
+@include('widgets.input.input-tags')
+@include('widgets.input.input-phone')
+@include('widgets.input.input-number')
+@include('widgets.input.input-address')
+@include('widgets.input.input-geolocation')

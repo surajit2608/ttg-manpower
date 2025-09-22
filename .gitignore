@@ -1,0 +1,11 @@
+*.sh
+.DS_Store
+.htaccess
+.vscode
+error.log
+access.log
+
+/config/*
+/vendor/*
+public/storage/*
+public/uploads/*

@@ -1,0 +1,6 @@
+@include('widgets.dropdown.dropdown')
+@include('widgets.dropdown.dropdown-date')
+@include('widgets.dropdown.dropdown-time')
+@include('widgets.dropdown.dropdown-search')
+@include('widgets.dropdown.dropdown-multiple')
+@include('widgets.dropdown.dropdown-datetime')

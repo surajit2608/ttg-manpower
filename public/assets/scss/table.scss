@@ -1,0 +1,136 @@
+/* Table */
+.table-responsive {
+  width: 100%;
+  overflow: auto;
+  border-radius: 0.25rem;
+  border: 1px solid $border-color;
+
+  .table,
+  table {
+    border: none;
+  }
+}
+
+table,
+.table {
+  width: 100%;
+  margin: 0 auto;
+  border-spacing: 0;
+  position: relative;
+  border-radius: 0.25rem;
+  border-collapse: separate;
+  background-color: $table-bg-color;
+
+  thead {
+
+    th,
+    td {
+      padding: 1rem;
+      text-align: left;
+      font-weight: bold;
+      vertical-align: middle;
+      background-color: $table-header-bg-color;
+
+      &:first-child {
+        text-align: left;
+        border-top-left-radius: 0.25rem;
+      }
+
+      &:last-child {
+        border-top-right-radius: 0.25rem;
+      }
+
+      &.sticky-cols {
+        z-index: 0;
+        box-shadow: none;
+      }
+    }
+  }
+
+  tbody {
+
+    th,
+    td {
+      padding: 1rem;
+      vertical-align: middle;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+
+      &:first-child {
+        text-align: left;
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  &.bordered {
+    border: 1px solid $border-color;
+
+    >thead {
+      >tr {
+
+        >th,
+        >td {
+          border-right: 1px solid $border-color;
+          border-bottom: 2px solid $border-color;
+
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+    }
+
+    >tbody {
+      >tr {
+
+        >th,
+        >td {
+          border-right: 1px solid $border-color;
+          border-bottom: 1px solid $border-color;
+
+          &:last-child {
+            border-right: none;
+          }
+        }
+
+        &:last-child {
+
+          >th,
+          >td {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+
+  &.striped {
+    >tbody {
+      >tr {
+        &:nth-child(2n) {
+
+          >th,
+          >td {
+            background-color: $table-striped-bg-color;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.sticky-cols {
+  right: 0;
+  width: 1%;
+  z-index: 9999;
+  position: sticky;
+  background-color: $white-color;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+}

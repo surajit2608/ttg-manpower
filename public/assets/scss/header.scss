@@ -1,0 +1,116 @@
+#header {
+  z-index: 2;
+  position: relative;
+  background-color: $header-bg-color;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+
+  h1 {
+    height: 100%;
+    display: flex;
+    font-weight: 400;
+    overflow: hidden;
+    font-size: 1.75rem;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 1rem $base-padding;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem $base-padding;
+
+    .profile-info {
+      display: flex;
+      cursor: pointer;
+      max-width: 15rem;
+      margin-left: 1rem;
+      font-weight: bold;
+      position: relative;
+      padding-left: 1rem;
+      color: $dp-bg-color;
+      border-radius: 2rem;
+      align-items: center;
+      text-decoration: none;
+      background-color: $white-color;
+      border: 1px solid $border-color;
+
+      img,
+      [data-letters]:after {
+        display: flex;
+        width: 2.5rem;
+        height: 2.5rem;
+        object-fit: cover;
+        font-size: 0.85rem;
+        border-radius: 50%;
+        margin-left: 0.5rem;
+        align-items: center;
+        color: $body-bg-color;
+        justify-content: center;
+        content: attr(data-letters);
+        background-color: $dp-bg-color;
+      }
+
+      .user-info {
+        display: flex;
+        max-width: 10rem;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+
+        span {
+          width: auto;
+          display: block;
+          overflow: hidden;
+          max-width: 10rem;
+          font-size: 0.85rem;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}
+
+.notification-tray {
+  &::before {
+    width: 0;
+    height: 0;
+    right: 2px;
+    content: "";
+    bottom: 100%;
+    top: -0.75rem;
+    position: absolute;
+    border-style: solid;
+    border-color: #efefef transparent;
+    border-width: 0 0.75rem 0.75rem 0.75rem;
+  }
+
+  ul {
+    li {
+      a {
+        &:hover {
+          background-color: #f7f7f7;
+        }
+      }
+    }
+  }
+
+  img,
+  [data-letters]:after {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    font-size: 0.85rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    align-items: center;
+    color: $body-bg-color;
+    justify-content: center;
+    content: attr(data-letters);
+    background-color: $dp-bg-color;
+  }
+}

@@ -1,0 +1,131 @@
+@import 'functions.scss';
+
+$base-font-size: 16px;
+$base-font-weight: 300;
+$base-line-height: 1.25;
+$fa-font-family: "FontAwesome";
+$base-font-family: 'Rubik', sans-serif;
+
+$base-padding: 2rem;
+
+$body-bg-color: #ececec;
+$base-text-color: #565872;
+
+$white-color: #ffffff;
+$primary-color: #5ba0d9;
+$primary-hover-color: #093059;
+$success-color: #6cc775;
+$info-color: #46d0d9;
+$warning-color: #ffc077;
+$danger-color: #ed6c6c;
+
+$anchor-color: #0f1d28;
+$anchor-hover-color: #589ccd;
+$border-color: #dddddd;
+$placeholder-color: #b6bcc3;
+
+$spinner-color: #5ba0d9;
+$spinner-bg-color: #464a4c10;
+
+$header-bg-color: #ffffff;
+$sidebar-bg-color: #ffffff;
+$sidebar-bg-color-active: #ececec;
+
+$table-bg-color: #ffffff;
+$table-header-bg-color: #e1e1e1;
+$table-striped-bg-color: #f7f7f7;
+
+$scrollbar-width-webkit: 0;
+$scrollbar-width-mozila: thin;
+$scrollbar-track-background: none;
+$scrollbar-thumb-radius: 5px;
+$scrollbar-thumb-background: rgba(0, 0, 0, 0.2);
+$scrollbar-thumb-background-hover: rgba(0, 0, 0, 0.3);
+
+$h1-color: #0f1d28;
+$h2-color: #0f1d28;
+$h3-color: #0f1d28;
+$h4-color: #0f1d28;
+$h5-color: #0f1d28;
+$h6-color: #0f1d28;
+
+$label-color: #0f1d28;
+$dp-bg-color: #5ba0d9;
+
+$line-heights: 1, 1.25, 1.5, 2;
+
+$font-weights: 300, 400, 500, 600, 700, 800, 900;
+$font-sizes: '0.5', '0.55', '0.6', '0.65', '0.7', '0.75', '0.8', '0.85', '0.9', '0.95', '1',
+  '1.15', '1.25', '1.5', '1.75', '2',
+  '2.25', '2.5', '2.75', '3',
+  '3.25', '3.5', '3.75', '4',
+  '4.25', '4.5', '4.75', '5',
+  '5.25', '5.5', '5.75', '6',
+  '6.25', '6.5', '6.75', '7',
+  '7.25', '7.5', '7.75', '8';
+
+$fonts: (
+  'family': 'Rubik',
+  'src': '../fonts/rubik/Rubik-Light.ttf',
+  'format': 'truetype',
+  'weight': 300,
+  'style': 'normal'),
+  ('family': 'Rubik', 'src': '../fonts/rubik/Rubik-Regular.ttf', 'format': 'truetype', 'weight': 400, 'style': 'normal'),
+  ('family': 'Rubik', 'src': '../fonts/rubik/Rubik-Medium.ttf', 'format': 'truetype', 'weight': 500, 'style': 'normal'),
+  ('family': 'Rubik', 'src': '../fonts/rubik/Rubik-Bold.ttf', 'format': 'truetype', 'weight': 700, 'style': 'normal'),
+  ('family': 'Saira', 'src': '../fonts/saira/Saira-Light.ttf', 'format': 'truetype', 'weight': 300, 'style': 'normal'),
+  ('family': 'Saira', 'src': '../fonts/saira/Saira-Regular.ttf', 'format': 'truetype', 'weight': 400, 'style': 'normal'),
+  ('family': 'Saira', 'src': '../fonts/saira/Saira-Medium.ttf', 'format': 'truetype', 'weight': 500, 'style': 'normal'),
+  ('family': 'Saira', 'src': '../fonts/saira/Saira-Bold.ttf', 'format': 'truetype', 'weight': 700, 'style': 'normal'),
+  ('family': 'Baskervville', 'src': '../fonts/baskervville/Baskervville-Regular.ttf', 'format': 'truetype', 'weight': 400, 'style': 'normal'
+);
+
+
+$opacities: '0.1', '0.2', '0.3', '0.4', '0.5', '0.6', '0.7', '0.8', '0.9', '1';
+
+$width-viewports: '0', '25', '50', '75', '100';
+$width-percentages: '0', '25', '50', '75', '100';
+$width-pixels: '0', '10', '16', '20', '25', '50', '75', '100', '400';
+
+$height-viewports: '0', '25', '50', '75', '100';
+$height-percentages: '0', '25', '50', '75', '100';
+$height-pixels: '0', '10', '16', '20', '25', '50', '75', '100', '500';
+
+
+$table-layouts: auto, fixed;
+
+$text-overflows: ellipsis, clip;
+
+$box-sizings: content-box, border-box;
+
+$flex-wraps: wrap, nowrap, wrap-reverse;
+
+$overflows: auto, hidden, scroll, visible;
+
+$text-aligns: left, center, right, justify;
+
+$positions: fixed, sticky, relative, absolute;
+
+$object-positions: top, left, right, center, bottom;
+
+$object-fits: contain, cover, fill, scale-down, none;
+
+$directions: row, column, row-reverse, column-reverse;
+
+$white-spaces: normal, nowrap, pre, pre-line, pre-wrap;
+
+$displays: flex, block, inline, inline-flex, inline-block, none;
+
+$cursors: auto, default, pointer, grab, grabbing, text, none;
+
+$list-styles: none, circle, inside, outside, disc, square, decimal;
+
+$align-items: flex-start, center, flex-end, baseline, stretch;
+$align-self: auto, flex-start, center, flex-end, baseline, stretch;
+$justify-contents: flex-start, center, flex-end, space-between, space-around;
+
+$pm-sizes: '-0.5', '0', '0.25', '0.5', '0.6', '0.75', '1', '1.25', '1.5', '1.75', '2', '2.25', '2.5', '2.75', '3', '3.25', '3.5', '3.75', '4', '4.25', '4.5', '4.75', '5';
+
+$flexs: '0.25', '0.5', '0.75', '1';
+
+$rounds: '0', '0.25', '0.5', '0.75', '1', '2', '3', '4', '5';

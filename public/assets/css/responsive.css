@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+  .hide-xs {
+    display: none !important;
+  }
+  .show-xs {
+    display: block !important;
+  }
+  .p-base {
+    padding: 1rem;
+  }
+  .ph-base {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .pv-base {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .pt-base {
+    padding-top: 1rem;
+  }
+  .pr-base {
+    padding-right: 1rem;
+  }
+  .pb-base {
+    padding-bottom: 1rem;
+  }
+  .pl-base {
+    padding-left: 1rem;
+  }
+  #wrapper {
+    padding-left: 0 !important;
+  }
+  #sidebar {
+    transform: translateX(-100%) !important;
+  }
+  #sidebar.open {
+    transform: translateX(0) !important;
+  }
+  #header h1 {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  #header .header-right {
+    padding: 1rem;
+  }
+  #scrollable .content {
+    padding: 1rem;
+  }
+  .modal.center .modal-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

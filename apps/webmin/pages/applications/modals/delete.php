@@ -1,0 +1,47 @@
+@section('segments')
+@parent
+<modal id="delete-application-modal" type="center">
+  <div class="modal-header">
+    <h4 class="modal-title">Delete Application</h4>
+  </div>
+  <div class="modal-body">
+    <div class="group">Are you sure you would like to delete <b>{{application.title}}</b>? This action can not be undone if performed.</div>
+    <div class="group">
+      <label>Reason for Delete<small class="required">*</small>:</label>
+      <textarea class="controls" rows="5" value="{{change_log.comment}}"></textarea>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn primary outline" target="delete-application-modal" on-click="modal.close">Close</button>
+    <button class="btn primary" on-click="onPressDeleteApplication">Delete</button>
+  </div>
+</modal>
+@endsection
+
+
+@section('scripts')
+@parent
+<script type="text/javascript">
+  $Data.set('change_log', null)
+
+  $Event.on('delete-application-modal.open', () => {
+    $Data.set('change_log.method', 'delete')
+    $Data.set('change_log.type', 'application.delete')
+    $Data.set('change_log.user_id', $Data.get('me.id'))
+    $Data.set('change_log.record_id', $Data.get('application.id'))
+  })
+
+  $Event.on('onPressDeleteApplication', () => {
+    var params = {
+      application: $Data.get('application'),
+      change_log: $Data.get('change_log'),
+    }
+    $Api.delete('<%ADMIN_URL%>/api/applications/delete').params(params).send()
+  })
+
+  $Event.on('delete-application-modal.close', () => {
+    $Data.set('application', {})
+    $Data.set('change_log.comment', '')
+  })
+</script>
+@endsection
