@@ -124,7 +124,7 @@ CREATE TABLE `companies` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `companies` (`id`, `user_id`, `name`, `address`, `city`, `postal`, `phone`, `fax`, `email`, `website`, `logo`, `details`, `updated_at`, `created_at`, `deleted_at`) VALUES
-(1,	1,	'Bureau De Connect',	'178 Merton High Street',	'London',	'SW19 1YA',	'+44 7572454166',	'515253',	'operations@bureaudeconnect.co.uk',	'https://bureaudeconnect.co.uk',	'/uploads/logos/logo-64ac239a2903f.png',	NULL,	'2023-07-20 20:04:02',	'2023-07-10 15:16:38',	NULL);
+(1,	1,	'Time Tech Global',	'178 Merton High Street',	'London',	'SW19 1YA',	'+44 7572454166',	'515253',	'operations@timetechglobal.com',	'https://timetechglobal.com',	'/uploads/logos/logo-64ac239a2903f.png',	NULL,	'2023-07-20 20:04:02',	'2023-07-10 15:16:38',	NULL);
 
 DROP TABLE IF EXISTS `countries`;
 CREATE TABLE `countries` (
@@ -590,7 +590,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `full_name`, `image`, `email`, `username`, `password`, `phone`, `role_id`, `details`, `tz_offset`, `last_loggedin`, `updated_at`, `created_at`, `deleted_at`) VALUES
-(1,	'Bureau De',	'Connect',	'Bureau De Connect',	'/uploads/profiles/dp-64b018a5e6fd7.jpg',	'admin@gmail.com',	'admin',	'7c4a8d09ca3762af61e59520943dc26494f8941b',	'+91 9000000000',	1,	NULL,	-19800,	'2025-09-19 16:22:08',	'2023-09-27 14:21:48',	'2023-06-30 12:07:23',	NULL),
+(1,	'Time Tech',	'Global',	'Time Tech Global',	'/uploads/profiles/dp-64b018a5e6fd7.jpg',	'admin@gmail.com',	'admin',	'7c4a8d09ca3762af61e59520943dc26494f8941b',	'+91 9000000000',	1,	NULL,	-19800,	'2025-09-19 16:22:08',	'2023-09-27 14:21:48',	'2023-06-30 12:07:23',	NULL),
 (2,	'Swapna',	'Mondal',	'Swapna Mondal',	'/uploads/users/dp-64da8f9cb70a1.png',	'swapna@gmail.com',	'swapna',	'7c4a8d09ca3762af61e59520943dc26494f8941b',	'+91 9932270925',	2,	NULL,	-19800,	'2023-08-14 19:54:50',	'2023-08-14 20:33:41',	'2023-06-30 12:07:23',	NULL),
 (3,	'Surajit',	'Pramanik',	'Surajit Pramanik',	'/uploads/profiles/dp-64b01bca3875f.jpg',	'surajit@gmail.com',	'surajit',	'7c4a8d09ca3762af61e59520943dc26494f8941b',	'+91 9804105617',	2,	NULL,	-19800,	'2023-07-04 04:43:49',	'2023-07-13 15:44:12',	'2023-06-30 12:07:23',	NULL);
 
@@ -628,7 +628,7 @@ INSERT INTO `workers` (`id`, `application_id`, `title`, `first_name`, `middle_na
 (1,	1,	'Mr',	'Surajit',	'',	'Pramanik',	'Surajit Pramanik',	NULL,	'Male',	'1987-08-26',	'jitdxpert@gmail.com',	'jitdxpert',	'b61ad4f4977a0b0f15c45b4b3729c8718eca3779',	'+919804105617',	'2024-01-31',	NULL,	NULL,	0,	'approved',	-19800,	'2025-09-19 11:34:24',	NULL,	'2024-02-13 15:13:14',	'2023-09-24 19:36:27',	NULL),
 (2,	1,	'Mrs',	'Swapna',	'',	'Mondal',	'Swapna Mondal',	NULL,	'Female',	'1987-07-09',	'swapna.mondal@gmail.com',	'swapna',	'2bc9ce60a08aefe3c5591ca41ffd399e848829df',	'9830123456',	'2024-01-31',	NULL,	NULL,	0,	'approved',	-19800,	NULL,	NULL,	'2024-01-30 19:32:24',	'2023-09-27 06:22:24',	NULL),
 (3,	5,	'Mr',	'Kaustab',	'k',	'Nandy',	'Kaustab k Nandy',	NULL,	'Male',	'1991-10-09',	'kaustabwiseowl@gmail.com',	'kaus',	'9e8e28a1d729a8216714a216235b4e8ff6e91faf',	'8276044433',	NULL,	NULL,	NULL,	0,	'active',	-19800,	NULL,	NULL,	'2024-02-22 11:14:40',	'2024-02-22 11:14:40',	NULL),
-(4,	5,	'Mr',	'Hamza',	'',	'Khan',	'Hamza Khan',	NULL,	'Male',	'1995-06-16',	'consultant.1@bureaudeconnect.co.uk',	'Consultant.1',	'510d24ffb45ad320cb3dc2c09e81989477f8f183',	'07405012468',	NULL,	NULL,	NULL,	0,	'approved',	0,	'2024-02-26 11:57:46',	NULL,	'2024-02-26 11:08:19',	'2024-02-26 11:08:19',	NULL);
+(4,	5,	'Mr',	'Hamza',	'',	'Khan',	'Hamza Khan',	NULL,	'Male',	'1995-06-16',	'consultant.1@timetechglobal.com',	'Consultant.1',	'510d24ffb45ad320cb3dc2c09e81989477f8f183',	'07405012468',	NULL,	NULL,	NULL,	0,	'approved',	0,	'2024-02-26 11:57:46',	NULL,	'2024-02-26 11:08:19',	'2024-02-26 11:08:19',	NULL);
 
 DROP TABLE IF EXISTS `workers_addresses`;
 CREATE TABLE `workers_addresses` (

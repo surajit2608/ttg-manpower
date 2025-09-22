@@ -11,7 +11,7 @@
         <tbody>
           <tr>
             <th class="t-align-left">Company Name:</th>
-            <td>Bureau de Connect</td>
+            <td>Time Tech Global</td>
           </tr>
           <tr>
             <th class="t-align-left">Company Contact details:</th>
@@ -35,7 +35,7 @@
           </tr>
         </tbody>
       </table>
-      <p class="mb-1">Bureau de Connect is a recruitment business which provides work-finding services to its clients and work-seekers. The Company must process personal data (including sensitive personal data) so that it can provide these services - in doing so, the Company acts as a data controller.</p>
+      <p class="mb-1">Time Tech Global is a recruitment business which provides work-finding services to its clients and work-seekers. The Company must process personal data (including sensitive personal data) so that it can provide these services - in doing so, the Company acts as a data controller.</p>
       <p>You may give your personal details to the Company directly, such as on an application or registration form or via our website, or we may collect them from another source such as a jobs board. The Company must have a legal basis for processing your personal data. For the purposes of providing you with work-finding services and/or information relating to roles relevant to you we will only use your personal data in accordance with the terms of the following statement.</p>
     </div>
 
@@ -100,7 +100,7 @@
         <li class="mb-0_5">The right not to be subjected to automated decision making and profiling; and</li>
         <li>The right to withdraw consent at any time.</li>
       </ul>
-      <p class="mb-1">Where you have consented to the Company processing your personal data/and sensitive personal information you have the right to withdraw that consent at any time by contacting Sohail Shamsi via email on operations@bureaudeconnect.co.uk.</p>
+      <p class="mb-1">Where you have consented to the Company processing your personal data/and sensitive personal information you have the right to withdraw that consent at any time by contacting Sohail Shamsi via email on operations@timetechglobal.com.</p>
       <p class="mb-1">There may be circumstances where the Company will still need to process your data for legal or official reasons. We will inform you if this is the case. Where this is the case, we will restrict the data to only what is necessary for the purpose of meeting those specific reasons.</p>
       <p class="mb-1">If you believe that any of your data that the Company processes is incorrect or incomplete, please contact us using the details above and we will take reasonable steps to check its accuracy and correct it where necessary.</p>
       <p>You can also contact us using the above details if you want us to restrict the type or amount of data we process for you, access your personal data or exercise any of the other rights listed above.</p>
@@ -129,13 +129,13 @@
     <h4 class="mb-1">MODERN DAY SLAVERY POLICY</h4>
     <div class="mb-2">
       <label class="d-block mb-1">Who we are and what we do:</label>
-      <p class="mb-1">Bureau de Connect is a Company registered in England and Wales and operates in the recruitment sector providing permanent and temporary staff in the entire United Kingdom.</p>
-      <p class="mb-1">Bureau de Connect provides recruitment services to a range of industries including, Industrial and food processing workers, worker professional services, healthcare, construction trades, Driving and hospitality sector.</p>
-      <p class="mb-1">Bureau de Connect is committed to ensuring there is transparency in its business and in its approach to tackling modern slavery throughout supply chains, consistent with the relevant disclosure obligations under the Modern Slavery Act 2015.</p>
+      <p class="mb-1">Time Tech Global is a Company registered in England and Wales and operates in the recruitment sector providing permanent and temporary staff in the entire United Kingdom.</p>
+      <p class="mb-1">Time Tech Global provides recruitment services to a range of industries including, Industrial and food processing workers, worker professional services, healthcare, construction trades, Driving and hospitality sector.</p>
+      <p class="mb-1">Time Tech Global is committed to ensuring there is transparency in its business and in its approach to tackling modern slavery throughout supply chains, consistent with the relevant disclosure obligations under the Modern Slavery Act 2015.</p>
 
       <label class="d-block mb-1">OUR POLICIES</label>
       <p class="mb-1">We operate a zero-tolerance approach to modern slavery and are committed to acting ethically and with integrity in all business dealings and relationships and to implementing and enforcing effective systems and controls to ensure modern slavery is not taking place anywhere in its business or in any of its supply chains.</p>
-      <p class="mb-1">Our Anti-Slavery and Human Trafficking policy (“the policy”), copy available upon request, applies to all persons working either for Bureau de Connect or on its behalf in any capacity, including employees at all levels, directors, officers, agency workers, seconded workers, volunteers, interns, agents, contractors, external consultants, third-party representatives and business partners.</p>
+      <p class="mb-1">Our Anti-Slavery and Human Trafficking policy (“the policy”), copy available upon request, applies to all persons working either for Time Tech Global or on its behalf in any capacity, including employees at all levels, directors, officers, agency workers, seconded workers, volunteers, interns, agents, contractors, external consultants, third-party representatives and business partners.</p>
       <p class="mb-1">There are also several other policies which assist in the shaping of our business dealings and conduct of our employees, including:</p>
       <ul class="mb-1 ml-1">
         <li class="mb-0_5">Anti-Bribery and Corruption policy</li>
@@ -146,14 +146,14 @@
       </ul>
       <p class="mb-1">Our director has overall responsibility for ensuring the policies comply with all legal and ethical obligations, and that all those under our control comply with it.</p>
       <p class="mb-1">DUE DILIGENCE PROCESSES IN RELATION TO SLAVERY AND HUMAN TRAFFICKING</p>
-      <p class="mb-1">Bureau de Connect provides mandatory training to its employees within the Industrial and Logistics divisions which specifically addresses how to identifyand tackle hidden labour exploitation and encourages staff and workers to report any suspected cases.</p>
-      <p class="mb-1">Bureau de Connect expects the same high standards from all contractors, suppliers and other business partners, and as part of its contracting processes, each supplier contract includes specific prohibitions against the use of forced, compulsory or trafficked labour, or anyone held in slavery or servitude, whether adults or children, and it is expected that all suppliers will hold their own suppliers to the same high standards.</p>
-      <p class="mb-1">Bureau de Connect ensures that when assessing applicants for work, that the applicant's identity and right to work is properly evidenced and confirmed. All applicants who are engaged for temporary work are employees of Bureau de Connect and are able to work when they wish, take holidays when they want and leave Bureau de Connect's employment after required notice if they wish.</p>
-      <p class="mb-1">Bureau de Connect acknowledges that a potential indicator of modern slavery can be evidenced where multiple workers are using the same bank account details or residing at the same address. As an additional measure, Bureau de Connect will conduct quarterly checks of all given addresses and bank account details to ensure that there is no unexplained duplication of details.</p>
+      <p class="mb-1">Time Tech Global provides mandatory training to its employees within the Industrial and Logistics divisions which specifically addresses how to identifyand tackle hidden labour exploitation and encourages staff and workers to report any suspected cases.</p>
+      <p class="mb-1">Time Tech Global expects the same high standards from all contractors, suppliers and other business partners, and as part of its contracting processes, each supplier contract includes specific prohibitions against the use of forced, compulsory or trafficked labour, or anyone held in slavery or servitude, whether adults or children, and it is expected that all suppliers will hold their own suppliers to the same high standards.</p>
+      <p class="mb-1">Time Tech Global ensures that when assessing applicants for work, that the applicant's identity and right to work is properly evidenced and confirmed. All applicants who are engaged for temporary work are employees of Time Tech Global and are able to work when they wish, take holidays when they want and leave Time Tech Global's employment after required notice if they wish.</p>
+      <p class="mb-1">Time Tech Global acknowledges that a potential indicator of modern slavery can be evidenced where multiple workers are using the same bank account details or residing at the same address. As an additional measure, Time Tech Global will conduct quarterly checks of all given addresses and bank account details to ensure that there is no unexplained duplication of details.</p>
       <p class="mb-1">The prevention, detection and reporting of modern slavery in any part of our business or supply chains is the responsibility of all those working for us or under our control. All parties are required to avoid any activity that might lead to, or suggest, a breach of our policy and are actively encouraged to raise any concerns that they may have about any issue or suspicion of modern slavery in any parts of the business or supply chains.</p>
       <p class="mb-1">We aim to encourage openness and will support anyone who raises genuine concerns in good faith under this policy, even if they turn out to be mistaken. We are committed to ensuring no one suffers any detrimental treatment as a result of reporting in good faith their suspicion that modern slavery of whatever form is or may be taking place in any part of our own business or in any of our supply chains. Detrimental treatment includes dismissal, disciplinary action, threats or other unfavourable treatment connected with raising a concern.</p>
       <label class="d-block mb-1">TRAINING FOR STAFF</label>
-      <p class="mb-1">Training and guidance on modern slavery and the risks our business may face from modern slavery in its supply chains will form part of the induction process for all individuals who work for Bureau de Connect and further support can be provided as necessary.</p>
+      <p class="mb-1">Training and guidance on modern slavery and the risks our business may face from modern slavery in its supply chains will form part of the induction process for all individuals who work for Time Tech Global and further support can be provided as necessary.</p>
       <label class="d-block mb-1">SUMMARY</label>
       <p class="mb-1">Management at all levels are responsible for ensuring those reporting to them understand and comply with the policy, that they understand the issue of modem slavery in supply chains and how it may affect our business and that individuals are given further guidance as required.This statement has been approved by the Director and is made in respect of the 2022/23 financial year.</p>
     </div>
